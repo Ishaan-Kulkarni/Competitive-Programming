@@ -50,7 +50,7 @@ void helper1(int root,int pp,vector<int>adj[]){
 		//it tells if I want to calculate 2^ith parent first calculate 2^i-1 th
 		//parent lets name it as node1, now calculate 2^i-1th parent of node1
 		//for eg 2^3 == 8 parent of a node will be 2^2 == 4 parent(node1) and
-		//again 2^3th == 4 parent of node1 --> if you observe we have take 8 steps 
+		//again 2^2th == 4 parent of node1 --> if you observe we have take 8 steps 
 		//overall --> go half steps up and again go half steps of that node(here node1)
 	}
 	for(auto it:adj[root]){
